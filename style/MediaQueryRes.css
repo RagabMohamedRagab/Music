@@ -1,0 +1,39 @@
+/*
+ MediaQuery Respoinsive**
+ */
+ @media (max-width:600px){
+    .container{
+        width:250px;
+        height: 400px;
+        margin: 8% auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 35% 45% 25%;
+        box-shadow:5px 5px 10px 5px #382AE1,-5px -5px 10px 5px #382AE1;
+    }
+    section{  
+        padding: 8px;
+    }
+    section div:first-of-type h1{
+        font-size: 1rem;
+    }
+    section div:first-of-type p{
+        font-size: .8rem;
+    }
+    section div:nth-of-type(2){
+        padding: 5px;
+        margin-top: 26px;
+    }
+    section div:nth-of-type(2) > div p{
+        font-size: .7rem;
+    }
+    section div:nth-of-type(2) > div span{
+        font-size: .7rem;
+    }
+    section div:nth-of-type(2) img{
+        width: 13%;
+    }
+    section div:nth-of-type(2) p{
+        font-size: .8rem;
+    }
+ }
